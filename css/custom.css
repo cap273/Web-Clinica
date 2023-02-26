@@ -1,0 +1,127 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+/***LOGO CABECERA***/
+/* #logo img {
+    display: block;
+    max-width: 225px;
+    max-height: 46px;
+}*/
+/**MENU**/
+.team-image img{
+    border-radius: 10px;
+}
+
+#primary-menu.sub-title>ul>li>a {
+    text-transform: none;
+}
+
+.top-links ul li {
+    border-left: none;
+}
+
+.top-links ul li {
+    padding: 0 12px;
+}
+
+#top-bar {
+    /*border-bottom: 1px solid #EEE;*/
+    background: #393185;
+    color: #ffffff;
+    border: none;
+}
+
+.top-links ul li:hover {
+    background: #241e48;
+}
+
+#primary-menu.sub-title>ul>li>a,
+#primary-menu.sub-title>div>ul>li>a {
+    line-height: 35px;
+}
+
+#primary-menu.sub-title>ul>li:hover>a,
+#primary-menu.sub-title>ul>li.current>a,
+#primary-menu.sub-title>div>ul>li:hover>a,
+#primary-menu.sub-title>div>ul>li.current>a {
+    background-color: #393185;
+}
+
+/*TITULARES*/
+.heading-block:after {
+    display: none;
+}
+
+/****FUENTES******/
+b,
+strong {
+    font-weight: 700;
+}
+
+.heading-block h3 {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: none;
+    color: #393185;
+    line-height: 36px !Important;
+}
+
+.entry-title h2 a {
+    color: #393185;
+    font-weight: 700;
+}
+
+.entry-title h2 {
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: none;
+}
+
+.post-grid.grid-3 .entry-title h2 {
+    font-size: 26px;
+}
+
+.tp-caption.News-Title,
+.News-Title {
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 50px !important;
+    font-weight: bold !important;
+}
+
+#content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/***** COLORES *****/
+#footer {
+    position: relative;
+    background-color: #EEEEEE !important;
+    border-top: 1px solid #F5F5F5;
+}
+
+.foot-top {
+    margin-top: 45px !important;
+}
+
+#copyrights {
+    background-color: #F5F5F5;
+}
+
+/* COOKIE BAR */
+
+.dark.cc_dialog{
+    background-color: #393186 !IMPORTANT;
+}
+
+.cc_cp_f_powered_by{
+    opacity: 0!important;
+}
+
+.cc_dialog .cc_dialog_text{
+    font-size: 13px!important;
+}
